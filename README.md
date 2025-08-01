@@ -8,6 +8,7 @@ python main.py
 ```
 
 ## Dependencey Tree
+```bash
 datastar v0.1.0
 ├── aiohttp v3.12.15
 │   ├── aiohappyeyeballs v2.6.1
@@ -67,3 +68,4 @@ datastar v0.1.0
 └── sse-starlette v3.0.2
     └── anyio v4.9.0 (*)
 (*) Package tree already displayed
+```
