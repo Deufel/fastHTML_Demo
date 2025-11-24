@@ -22,7 +22,7 @@ def home():
                 H2("SSE Examples"),
                 Article(
                     P("SSE: patch elements"),
-                    Button(data_on_click="@get('/stream')")("SSE Stream demo"),
+                    Button(data_on:click="@get('/stream')")("SSE Stream demo"),
                     Span(id="stream")("Initial Content"),
                 ),
                 Article(
@@ -34,8 +34,8 @@ def home():
                     ),
                     Span(Kbd(data_text="$currentTime")("Loading time...")),
                     Footer(
-                        Button(data_on_click="@get('/time-signals')")("Live Time Signals"),
-                        Button(data_on_click="window.location.reload()")("Stop Clock"),
+                        Button(data_on:click="@get('/time-signals')")("Live Time Signals"),
+                        Button(data_on:click="window.location.reload()")("Stop Clock"),
                     )
                 )
             )
