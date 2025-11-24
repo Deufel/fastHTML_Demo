@@ -8,7 +8,7 @@ from collections import deque
 
 # Application
 hdrs = [
-    Script(type="module", src="https://cdn.jsdelivr.net/gh/starfederation/datastar@main/bundles/datastar.js")
+    Script(type="module", src="https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.6/bundles/datastar.js")
 ]
 app, rt = fast_app(hdrs=hdrs, htmx=False, surreal=False, live=False)
 
